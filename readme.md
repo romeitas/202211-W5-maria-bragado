@@ -5,5 +5,5 @@ Crear un modulo con funciones que repliquen, sin utilizar ninguno de los método
 Cualquiera de las funciones puede usar las que ya hayas creado.​
 
 Testea TODOS los métodos.
-Utiliza Github Actions Audit en el flujo de Github
-Configura SonarCloud asociado a tu repositorio, incluyendo el coverage de los tests
+Utiliza Github Actions Audit en el flujo de Github.
+Configura SonarCloud asociado a tu repositorio, incluyendo el coverage de los tests.
