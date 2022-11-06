@@ -4,9 +4,6 @@ const calculateLenght = (arr1) => {
     let i = 0;
 
     while (arr1[i]) {
-        if (i === NaN) {
-            i === 1;
-        }
         i++;
     }
     return i;
