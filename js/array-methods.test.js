@@ -1,7 +1,6 @@
 import { calculateLength } from './array-methods.js';
 
 const array = [Infinity, 'hola', null, [1, 3], NaN];
-const errorCases = [undefined, RangeError];
 
 describe('Given calculateLength function', () => {
     test.each(array)(
@@ -12,8 +11,11 @@ describe('Given calculateLength function', () => {
             expect(result).toBe(expected);
         }
     );
+});
+
+describe('Given calculateLenght function', () => {
     test('When argument is undefined lanza un error "Parámetro no incluido"', () => {
-        const value = errorCases;
+        const value = undefined;
         const expected = RangeError;
         expect(() => {
             calculateLength(value);
