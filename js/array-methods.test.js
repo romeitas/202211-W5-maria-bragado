@@ -13,7 +13,7 @@ describe('Given calculateLength function', () => {
         }
     );
     test('When argument is undefined lanza un error "Parámetro no incluido"', () => {
-        const value = undefined;
+        const value = errorCases;
         const expected = RangeError;
         expect(() => {
             calculateLength(value);
