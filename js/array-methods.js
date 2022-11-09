@@ -7,6 +7,6 @@ export const calculateLength = (array) => {
     return counter;
 };
 
-export const caseError = (array) => {
+const caseError = (array) => {
     if (array === undefined) throw new RangeError('Parámetro no incluido');
 };
